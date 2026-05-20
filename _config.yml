@@ -8,7 +8,7 @@ url: "https://hong525-gh.github.io"
 baseurl: "/hong525_blog"
 
 # 远程主题（无需本地安装主题文件）
-remote_theme: riggraz/no-style-please
+remote_theme: hong525-gh/no-style-please
 
 # 插件列表
 # jekyll-feed      : 生成 RSS / Atom feed
