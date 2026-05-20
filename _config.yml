@@ -1,0 +1,32 @@
+# Jekyll 站点配置
+# 架构：内容源 → 同步脚本 → _posts/ → Jekyll → GitHub Pages
+# 远程主题：riggraz/no-style-please
+
+title: Hong's Personal Home Page
+description: 本分健康，认真努力。做对事情，知错即止。
+url: "https://hong525-gh.github.io"
+baseurl: "/hong525_blog"
+
+# 远程主题（无需本地安装主题文件）
+remote_theme: riggraz/no-style-please
+
+# 插件列表
+# jekyll-feed      : 生成 RSS / Atom feed
+# jekyll-remote-theme : 加载远程主题
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+# 主题特定配置（no-style-please 主题）
+theme_config:
+  appearance: "auto"      # light / dark / auto
+  back_home_text: ".."    # 文章页返回首页的链接文字
+  date_format: "%Y-%m-%d" # 日期显示格式
+  show_description: false # 首页是否显示站点描述
+  lowercase_titles: false # 列表中标题是否小写
+
+# RSS 作者信息（jekyll-feed 使用）
+author:
+  name: Hong525
+
+favicon: "logo.jpeg"

@@ -1,0 +1,31 @@
+# 首页菜单配置
+# 文档：https://github.com/riggraz/no-style-please#customize-the-menu
+#
+# 说明：
+#   - post_list: 显示文章列表，支持按 category 过滤
+#   - entries: 嵌套子菜单
+#   - 置顶区依赖 "pin" category，需在对应文章的 front matter 中设置
+
+entries:
+  - title: 置顶
+    post_list:
+      category: pin
+      limit: 1
+
+  - title: 博客列表
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: 查看全部...
+      show_more_url: archive.html
+
+  - title: 个人链接
+    entries:
+      - title: GitHub
+        url: https://github.com/hong525-gh
+      - title: Twitter
+        url: https://x.com/hong525_x
+      - title: Telegram 频道
+        url: https://t.me/ciceros_self_talk
+      - title: 专栏
+        url: https://github.com/hong525-gh/hong525_blog/issues

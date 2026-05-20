@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<!-- 首页布局：站点入口页面 -->
+<header>
+  <h1>{{ site.title }}</h1>
+  {%-if site.theme_config.show_description-%}
+    <p>{{ site.description }}</p>
+  {%-endif-%}
+</header>
+
+{{ content }}
+
+{%-include menu_item.html collection=site.data.menu.entries-%}
