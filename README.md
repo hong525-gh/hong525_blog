@@ -14,6 +14,7 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 ## 最近更新
 
+- [some thoughts](https://hong525-gh.github.io/hong525_blog/2026/05/23/some-thoughts.html) -- 2026-05-23
 - [2026-W17、W18](https://hong525-gh.github.io/hong525_blog/2026/05/05/2026-w17w18.html) -- 2026-05-05
 - [WHO I AM](https://hong525-gh.github.io/hong525_blog/pin/2026/04/19/who-i-am.html) -- 2026-04-19
 
