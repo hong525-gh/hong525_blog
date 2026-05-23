@@ -14,12 +14,10 @@ layout: default
 
   {{ content }}
 
-  {%- if page.issue_url -%}
   <hr style="border: none; border-top: 1px solid #ddd; margin: 2em 0;">
   <p class="post-meta">
-    <a href="{{ page.issue_url }}" target="_blank" rel="noopener noreferrer">
-      → 在 GitHub Issue 中查看原文 / 发表评论
+    <a href="https://github.com/hong525-gh/hong525_blog/blob/main/{{ page.path }}" target="_blank" rel="noopener noreferrer">
+      → 在 GitHub 上查看此文章的 Markdown 源文件
     </a>
   </p>
-  {%- endif -%}
 </article>
