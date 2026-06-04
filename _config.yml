@@ -2,7 +2,7 @@
 # 架构：内容源 → 同步脚本 → _posts/ → Jekyll → GitHub Pages
 # 远程主题：riggraz/no-style-please
 
-title: Hong's Personal Home Page
+title: 余烬
 description: 本分健康，认真努力。做对事情，知错即止。
 url: "https://hong525-gh.github.io"
 baseurl: "/hong525_blog"
