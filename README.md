@@ -10,11 +10,13 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 ## 置顶
 
+- [关于这个博客](https://hong525-gh.github.io/hong525_blog/pin/2026/06/12/about-blog.html) -- 2026-06-12
 - [WHO I AM](https://hong525-gh.github.io/hong525_blog/pin/2026/04/19/who-i-am.html) -- 2026-04-19
 
 ## 最近更新
 
 - [2026-w24](https://hong525-gh.github.io/hong525_blog/2026/06/15/2026-w24.html) -- 2026-06-15
+- [关于这个博客](https://hong525-gh.github.io/hong525_blog/pin/2026/06/12/about-blog.html) -- 2026-06-12
 - [2026-W23](https://hong525-gh.github.io/hong525_blog/2026/06/07/2026-w23.html) -- 2026-06-07
 - [一点想法](https://hong525-gh.github.io/hong525_blog/2026/06/04/some-thoughts.html) -- 2026-06-04
 - [2026-W22](https://hong525-gh.github.io/hong525_blog/2026/05/30/2026-w22.html) -- 2026-05-30
@@ -23,7 +25,6 @@ _本分健康，认真努力。做对事情，知错即止。_
 - [2026-W21](https://hong525-gh.github.io/hong525_blog/2026/05/24/2026-w21.html) -- 2026-05-24
 - [some thoughts](https://hong525-gh.github.io/hong525_blog/2026/05/23/some-thoughts.html) -- 2026-05-23
 - [2026-W17、W18](https://hong525-gh.github.io/hong525_blog/2026/05/05/2026-w17w18.html) -- 2026-05-05
-- [WHO I AM](https://hong525-gh.github.io/hong525_blog/pin/2026/04/19/who-i-am.html) -- 2026-04-19
 
 ## 链接
 
