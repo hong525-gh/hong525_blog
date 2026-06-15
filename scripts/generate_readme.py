@@ -10,7 +10,7 @@ Generate README.md from local _posts/ Markdown files
 """
 import re
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 
 POSTS_DIR = Path("_posts")
 BASE_URL = "https://hong525-gh.github.io/hong525_blog"
@@ -63,12 +63,31 @@ def parse_post(filepath: Path) -> dict:
         return None
     date_str, slug = m.group(1), m.group(2)
 
-    # Parse date from front matter if available, else from filename
+    # Parse date from front matter if available, else from filename.
+    # Jekyll converts all dates to UTC for URL generation, so we must do the same.
     date_raw = fm.get("date", date_str)
-    try:
-        dt = datetime.strptime(date_raw[:10], "%Y-%m-%d")
-    except ValueError:
-        dt = datetime.strptime(date_str, "%Y-%m-%d")
+    date_clean = date_raw.strip()
+
+    # Parse display date from the date part only (local date as written)
+    display_dt = datetime.strptime(date_raw[:10], "%Y-%m-%d")
+    display_date_str = display_dt.strftime("%Y-%m-%d")
+
+    # Parse UTC date for URL generation — match Jekyll’s UTC conversion
+    utc_dt = None
+    for fmt in ("%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M %z"):
+        try:
+            utc_dt = datetime.strptime(date_clean, fmt)
+            break
+        except ValueError:
+            continue
+
+    if utc_dt is None:
+        # No timezone in frontmatter — treat as UTC (dates without timezone
+        # are assumed to already be UTC by Jekyll)
+        utc_dt = display_dt
+    else:
+        # Convert to UTC (for sorting / URL)
+        utc_dt = utc_dt.astimezone(timezone.utc)
 
     categories = fm.get("categories", [])
     if isinstance(categories, str):
@@ -76,11 +95,11 @@ def parse_post(filepath: Path) -> dict:
 
     return {
         "title": fm.get("title", "Untitled"),
-        "date": dt,
-        "date_str": dt.strftime("%Y-%m-%d"),
+        "date": utc_dt,
+        "date_str": display_date_str,
         "slug": slug,
         "categories": categories,
-        "url": f"{BASE_URL}/{'/'.join(categories) + '/' if categories else ''}{dt.strftime('%Y/%m/%d')}/{slug}.html",
+        "url": f"{BASE_URL}/{'/'.join(categories) + '/' if categories else ''}{utc_dt.strftime('%Y/%m/%d')}/{slug}.html",
         "filepath": filepath,
     }
 
