@@ -10,7 +10,7 @@ entries:
   - title: 置顶
     post_list:
       category: pin
-      limit: 1
+      limit: 5
 
   - title: 博客列表
     post_list:
