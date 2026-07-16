@@ -15,6 +15,7 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 ## 最近更新
 
+- [2026-w27 & w28](https://hong525-gh.github.io/hong525_blog/2026/07/15/2026-w27-w28.html) -- 2026-07-16
 - [2026-w26](https://hong525-gh.github.io/hong525_blog/2026/06/28/2026-w26.html) -- 2026-06-28
 - [2026-w25](https://hong525-gh.github.io/hong525_blog/2026/06/21/2026-w25.html) -- 2026-06-21
 - [好设计需要花心思](https://hong525-gh.github.io/hong525_blog/2026/06/18/good-design.html) -- 2026-06-18
@@ -24,7 +25,6 @@ _本分健康，认真努力。做对事情，知错即止。_
 - [一点想法](https://hong525-gh.github.io/hong525_blog/2026/06/04/some-thoughts.html) -- 2026-06-04
 - [2026-W22](https://hong525-gh.github.io/hong525_blog/2026/05/30/2026-w22.html) -- 2026-05-30
 - [我是怎么记账的](https://hong525-gh.github.io/hong525_blog/2026/05/30/how-do-I-do-my-bookkeeping.html) -- 2026-05-30
-- [三十了呀](https://hong525-gh.github.io/hong525_blog/2026/05/27/30-years-old.html) -- 2026-05-27
 
 ## 链接
 
