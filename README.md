@@ -12,7 +12,6 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 - [关于这个博客](https://hong525-gh.github.io/hong525_blog/pin/2026/06/11/about-blog.html) -- 2026-06-12
 - [WHO I AM](https://hong525-gh.github.io/hong525_blog/pin/2026/04/19/who-i-am.html) -- 2026-04-19
-- [温故而知新](https://hong525-gh.github.io/hong525_blog/pin/2026/04/18/wen-gu-zhi-xin.html) -- 2026-04-18
 
 ## 最近更新
 
