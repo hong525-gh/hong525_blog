@@ -2,6 +2,10 @@
 temp.md
 PROJECT_GUIDE.md
 
+# Jekyll 本地构建产物
+_site/
+Gemfile.lock
+
 # 运行时文件
 *.pid
 *.log

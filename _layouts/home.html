@@ -1,14 +1,35 @@
 ---
 layout: default
 ---
-<!-- 首页布局：站点入口页面 -->
-<header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
-</header>
+<!-- 首页布局：简介 + 置顶区 + 最近文章摘要流 -->
 
 {{ content }}
 
-{%-include menu_item.html collection=site.data.menu.entries-%}
+{%- assign pinned = site.categories.pin -%}
+{%- if pinned.size > 0 -%}
+<div class="pinned">
+  <p class="pinned-title">置顶</p>
+  <ul>
+    {%- for post in pinned -%}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {%- endfor -%}
+  </ul>
+</div>
+{%- endif -%}
+
+<div class="posts">
+  {%- for post in site.posts limit: 5 -%}
+    <article class="post">
+      <a href="{{ post.url | relative_url }}">
+        <h1>{{ post.title }}</h1>
+      </a>
+      <p class="post_date">{{ post.date | date: site.theme_config.date_format }}</p>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ post.url | relative_url }}" class="read-more">阅读全文 →</a>
+    </article>
+  {%- endfor -%}
+</div>
+
+<p class="archive-link"><a href="{{ "/archive.html" | relative_url }}">查看全部文章 →</a></p>

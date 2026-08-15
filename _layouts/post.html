@@ -3,18 +3,17 @@ layout: default
 ---
 <!-- 文章页布局：用于单篇博客文章 -->
 
-{%-include back_link.html-%}
-
-<article>
-  <p class="post-meta">
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <p class="post_date">
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.theme_config.date_format }}</time>
   </p>
-  
-  <h1>{{ page.title }}</h1>
 
-  {{ content }}
+  <div class="entry">
+    {{ content }}
+  </div>
 
-  <hr style="border: none; border-top: 1px solid #ddd; margin: 2em 0;">
+  <hr>
   <p class="post-meta">
     <a href="https://github.com/hong525-gh/hong525_blog/blob/main/{{ page.path }}" target="_blank" rel="noopener noreferrer">
       → 在 GitHub 上查看此文章的 Markdown 源文件

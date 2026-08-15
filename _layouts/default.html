@@ -2,12 +2,45 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   {%- include head.html -%}
-  <body a="{{ site.theme_config.appearance | default: "auto" }}">
-    <main class="page-content" aria-label="Content">
-      <div class="w">
+  <body>
+    <div id="bar"></div>
+
+    <header class="masthead container">
+      <a href="{{ "/" | relative_url }}" class="site-avatar">
+        <img src="{{ "/logo.jpeg" | relative_url }}" alt="{{ site.title }}" />
+      </a>
+
+      <div class="site-info">
+        <h1 class="site-name"><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+        <p class="site-description">{{ site.description }}</p>
+      </div>
+
+      <nav>
+        <a href="{{ "/" | relative_url }}">首页</a>
+        <a href="{{ "/archive.html" | relative_url }}">归档</a>
+        <a href="https://github.com/hong525-gh" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://x.com/hong525_x" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <a href="https://t.me/ciceros_self_talk" target="_blank" rel="noopener noreferrer">Telegram</a>
+      </nav>
+    </header>
+
+    <main class="wrapper-main" aria-label="Content">
+      <div class="container">
         {{ content }}
       </div>
     </main>
+
+    <div class="wrapper-footer">
+      <footer class="container">
+        <a href="{{ "/feed.xml" | relative_url }}">RSS</a>
+        <span class="sep">·</span>
+        <a href="https://github.com/hong525-gh" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span class="sep">·</span>
+        <a href="https://x.com/hong525_x" target="_blank" rel="noopener noreferrer">Twitter</a>
+        <span class="sep">·</span>
+        <a href="https://t.me/ciceros_self_talk" target="_blank" rel="noopener noreferrer">Telegram</a>
+      </footer>
+    </div>
 
     {% if page.custom_js %}
       {% for js_file in page.custom_js %}

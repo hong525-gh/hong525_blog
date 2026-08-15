@@ -1,0 +1,424 @@
+---
+# 站点主样式：参考 willmcgugan.github.io 排版，自托管，不依赖远程主题
+---
+
+/**************/
+/* BASE RULES */
+/**************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC",
+    "Helvetica Neue", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #404040;
+  line-height: 1.7;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-weight: bold;
+  line-height: 1.7;
+  margin: 1em 0 15px;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+  }
+}
+
+h1 { font-size: 30px; }
+h1 a { color: inherit; }
+
+h2 { font-size: 24px; }
+
+/* h2 两侧装饰短线（仅桌面端） */
+@media (min-width: 769px) {
+  .post h2::before, .post h2::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 46px;
+    height: 1px;
+    background: #c0d3da;
+    margin: 0 30px;
+  }
+}
+
+h3 { font-size: 20px; }
+
+h4 { font-size: 18px; color: #222; }
+
+p { margin: 15px 0; }
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+ul, ol {
+  margin: 15px 0;
+  padding-left: 30px;
+}
+
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+
+ol ul, ul ol, ul ul, ol ol { margin: 0; }
+
+em, i { font-style: italic; }
+strong, b { font-weight: bold; }
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+blockquote {
+  margin: 1.8em .8em;
+  padding: 0.1em 1em;
+  color: #666;
+  font-size: 20px;
+  font-style: italic;
+  background-color: #ede1ff;
+}
+
+blockquote p { margin: 0.5rem 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+p > img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+/**********/
+/* CODE   */
+/**********/
+
+code, pre {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.85em;
+}
+
+code {
+  background-color: #f6f8fa;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+}
+
+pre {
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 12px 16px;
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+/**********/
+/* TABLE  */
+/**********/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+}
+
+table tr:nth-child(2n) { background-color: #f8f8f8; }
+
+table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  padding: 6px 13px;
+}
+
+table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  padding: 6px 13px;
+}
+
+/*************/
+/* FOOTNOTE  */
+/*************/
+
+.footnote, a[href^="#fn:"], a[href^="#fnref:"] {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
+}
+
+.footnotes {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #eee;
+  font-size: 0.9em;
+}
+
+.footnotes ol { padding-left: 1.5em; }
+.footnotes li { margin-bottom: 0.5em; }
+
+::selection {
+  color: #000;
+  background: #eee;
+}
+
+/*********************/
+/* TOP BAR           */
+/*********************/
+
+#bar {
+  background: #000;
+  height: 7px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/*********************/
+/* LAYOUT / SECTIONS */
+/*********************/
+
+.wrapper-main {
+  flex: 1;
+  padding-top: 7px;
+}
+
+/* Masthead */
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 25px;
+}
+
+.masthead::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+.site-avatar img {
+  border-radius: 5px;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.site-info { float: left; }
+
+.site-name {
+  margin: 0;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+  line-height: 1.2;
+}
+
+.site-name a {
+  color: #333;
+}
+
+.site-name a:hover { text-decoration: none; }
+
+.site-description {
+  margin: 3px 0 0 0;
+  color: #666;
+  font-size: 15px;
+}
+
+nav {
+  float: right;
+  margin-top: 23px;
+  font-size: 18px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+nav a:hover { text-decoration: none; color: #4183C4; }
+
+@media screen and (max-width: 640px) {
+  .masthead { text-align: center; }
+
+  .site-avatar {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .site-info {
+    float: none;
+    display: block;
+  }
+
+  .site-name { text-align: center; }
+
+  nav {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    color: #4183C4;
+  }
+}
+
+/* 置顶区 */
+
+.pinned {
+  margin: 1.5em 0 2em;
+}
+
+.pinned-title {
+  font-size: 16px;
+  color: #939aa1;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 0 0.5em;
+}
+
+.pinned ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.pinned li { margin: 0.25em 0; }
+
+/* 首页文章摘要流 */
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eee;
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post_date, .post-meta {
+  text-align: center;
+  color: #939aa1;
+  margin: 0.5em 0;
+}
+
+.read-more {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.archive-link {
+  text-align: center;
+  margin: 2em 0;
+}
+
+/* 归档页文章列表 */
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list li { margin: 0.4em 0; }
+
+.post-list-date {
+  color: #939aa1;
+  font-size: 0.85em;
+  margin-right: 0.8em;
+}
+
+/* 文章页 */
+
+.post h1, .page h1 {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Footer */
+
+.wrapper-footer {
+  background-color: #eee;
+  margin-top: 40px;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  color: #666;
+  font-size: 15px;
+}
+
+footer a { color: #4183C4; }
+footer span.sep { margin: 0 8px; color: #ccc; }

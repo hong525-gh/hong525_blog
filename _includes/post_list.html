@@ -1,30 +1,17 @@
-<!-- 文章列表组件：支持按分类过滤、限制数量、显示"查看更多"链接 -->
+<!-- 文章列表组件：归档页使用，支持按分类过滤 -->
 {%-if include.category-%}
-  {%-assign posts = site.categories[include.category]-%}  
+  {%-assign posts = site.categories[include.category]-%}
 {%-else-%}
   {%-assign posts = site.posts-%}
 {%-endif-%}
 
-{%-if include.limit and posts.size > include.limit-%}
-  {%-assign limit_exceeded = true-%}
-{%-else-%}
-  {%-assign limit_exceeded = false-%}
-{%-endif-%}
-
 {%- if posts.size > 0 -%}
-  <ul>
-    {%- for post in posts limit: include.limit -%}
+  <ul class="post-list">
+    {%- for post in posts -%}
         <li>
-          <span>{{- post.date | date: site.theme_config.date_format -}}</span>
-          {% if site.theme_config.lowercase_titles == true %}
-          <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
-          {% else %}
+          <span class="post-list-date">{{- post.date | date: site.theme_config.date_format -}}</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% endif %}
         </li>
     {%- endfor -%}
-    {%- if include.show_more and limit_exceeded -%}
-      <li><a href="{{ include.show_more_url }}">{{ include.show_more_text | default: "Show more..." }}</a></li>
-    {%- endif -%}
   </ul>
 {%- endif -%}
