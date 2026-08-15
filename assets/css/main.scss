@@ -107,12 +107,10 @@ hr {
 }
 
 blockquote {
-  margin: 1.8em .8em;
-  padding: 0.1em 1em;
-  color: #666;
-  font-size: 20px;
-  font-style: italic;
-  background-color: #ede1ff;
+  margin: 1em 0;
+  padding: 0 1em;
+  color: #57606a;
+  border-left: 0.25em solid #d0d7de;
 }
 
 blockquote p { margin: 0.5rem 0; }
@@ -244,19 +242,15 @@ table tr td {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   margin-bottom: 25px;
-}
-
-.masthead::after {
-  content: " ";
-  display: table;
-  clear: both;
+  display: flex;
+  align-items: center;
 }
 
 .site-avatar {
-  float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
+  flex-shrink: 0;
 }
 
 .site-avatar img {
@@ -266,7 +260,7 @@ table tr td {
   object-fit: cover;
 }
 
-.site-info { float: left; }
+.site-info { flex: 1; min-width: 0; }
 
 .site-name {
   margin: 0;
@@ -286,17 +280,16 @@ table tr td {
 .site-description {
   margin: 3px 0 0 0;
   color: #666;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 nav {
-  float: right;
-  margin-top: 23px;
   font-size: 18px;
+  flex-shrink: 0;
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 14px;
   color: #333;
   font-weight: 300;
   letter-spacing: 1px;
@@ -305,25 +298,17 @@ nav a {
 nav a:hover { text-decoration: none; color: #4183C4; }
 
 @media screen and (max-width: 640px) {
-  .masthead { text-align: center; }
-
-  .site-avatar {
-    float: none;
-    display: block;
-    margin: 0 auto;
+  .masthead {
+    flex-direction: column;
+    text-align: center;
   }
 
-  .site-info {
-    float: none;
-    display: block;
-  }
+  .site-avatar { margin: 0 0 10px; }
 
   .site-name { text-align: center; }
 
   nav {
-    float: none;
     margin-top: 9px;
-    display: block;
     font-size: 16px;
   }
 
