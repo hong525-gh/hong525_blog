@@ -15,6 +15,7 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 ## 最近更新
 
+- [学习一门语言时，最容易导致失败的原因是什么](https://hong525-gh.github.io/hong525_blog/2026/08/27/why-i-fail-at-languages-learning.html) -- 2026-08-27
 - [我为什么不再写周报](https://hong525-gh.github.io/hong525_blog/2026/08/13/我为什么不再写周报.html) -- 2026-08-14
 - [2026-w31](https://hong525-gh.github.io/hong525_blog/2026/08/04/2026-w31.html) -- 2026-08-04
 - [2026-w30](https://hong525-gh.github.io/hong525_blog/2026/07/26/2026-w30.html) -- 2026-07-27
@@ -24,7 +25,6 @@ _本分健康，认真努力。做对事情，知错即止。_
 - [2026-w25](https://hong525-gh.github.io/hong525_blog/2026/06/21/2026-w25.html) -- 2026-06-21
 - [好设计需要花心思](https://hong525-gh.github.io/hong525_blog/2026/06/18/good-design.html) -- 2026-06-18
 - [2026-w24](https://hong525-gh.github.io/hong525_blog/2026/06/15/2026-w24.html) -- 2026-06-15
-- [关于这个博客](https://hong525-gh.github.io/hong525_blog/pin/2026/06/11/about-blog.html) -- 2026-06-12
 
 ## 链接
 
