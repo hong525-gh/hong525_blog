@@ -15,6 +15,7 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 ## 最近更新
 
+- [推荐一套日语教材：「はじめての日本語能力試験」系列教材](https://hong525-gh.github.io/hong525_blog/2026/09/16/a-recommended-jlpt-textbook-series.html) -- 2026-09-16
 - [我为什么要学习日语](https://hong525-gh.github.io/hong525_blog/2026/09/04/why-i-am-learning-japanese.html) -- 2026-09-04
 - [为什么使用 Anki 来学习日语](https://hong525-gh.github.io/hong525_blog/2026/09/03/why-use-anki-for-learning-japanese.html) -- 2026-09-03
 - [学习一门语言时，为什么要学语法？](https://hong525-gh.github.io/hong525_blog/2026/09/02/why-learn-grammar.html) -- 2026-09-02
@@ -24,7 +25,6 @@ _本分健康，认真努力。做对事情，知错即止。_
 - [2026-w30](https://hong525-gh.github.io/hong525_blog/2026/07/26/2026-w30.html) -- 2026-07-27
 - [2026-w29](https://hong525-gh.github.io/hong525_blog/2026/07/21/2026-w29.html) -- 2026-07-22
 - [2026-w27 & w28](https://hong525-gh.github.io/hong525_blog/2026/07/15/2026-w27-w28.html) -- 2026-07-16
-- [2026-w26](https://hong525-gh.github.io/hong525_blog/2026/06/28/2026-w26.html) -- 2026-06-28
 
 ## 链接
 
