@@ -1,7 +1,7 @@
 ---
 layout: post 
 title: 怎么样改变习惯
-date: 2026-09-21 22:00:00 + 0800 
+date: 2026-09-21 22:00:00 +0800 
 --- 
 
 习惯与行为之间的关系是什么？通过观察日常生活，我给出的定义是：在某种场景下，无需经过思考就会发生的行为就是习惯。从这个定义出发，就容易理解 Buffett 的那句话：「You can get rid of it a lot easier at your age than at my age, because most behaviors are habitual. The chains of habit are too light to be felt until they are too heavy to be broken. There is no question about it. I see people with these selfdestructive behavior patterns at my age or even twenty years younger and they really are entrapped by them.」[^1]。那些学生对许多事情的思考方式还没有定型，因此在做某些事情之前，他们还可以先「思考」一下，再去行动。习惯还未变成枷锁。所以，怎么改变习惯？那就是想办法加上「思考」的环节。
