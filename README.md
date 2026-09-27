@@ -15,6 +15,7 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 ## 最近更新
 
+- [learn Japanes the hard way](https://hong525-gh.github.io/hong525_blog/2026/09/27/learn-japanese-the-hard-way.html) -- 2026-09-27
 - [怎么样改变习惯](https://hong525-gh.github.io/hong525_blog/2026/09/21/about-habit-and-behaviour.html) -- 2026-09-21
 - [推荐一套日语教材：「はじめての日本語能力試験」系列教材](https://hong525-gh.github.io/hong525_blog/2026/09/16/a-recommended-jlpt-textbook-series.html) -- 2026-09-16
 - [我为什么要学习日语](https://hong525-gh.github.io/hong525_blog/2026/09/04/why-i-am-learning-japanese.html) -- 2026-09-04
@@ -24,7 +25,6 @@ _本分健康，认真努力。做对事情，知错即止。_
 - [我为什么不再写周报](https://hong525-gh.github.io/hong525_blog/2026/08/13/我为什么不再写周报.html) -- 2026-08-14
 - [2026-w31](https://hong525-gh.github.io/hong525_blog/2026/08/04/2026-w31.html) -- 2026-08-04
 - [2026-w30](https://hong525-gh.github.io/hong525_blog/2026/07/26/2026-w30.html) -- 2026-07-27
-- [2026-w29](https://hong525-gh.github.io/hong525_blog/2026/07/21/2026-w29.html) -- 2026-07-22
 
 ## 链接
 
