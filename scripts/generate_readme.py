@@ -119,7 +119,7 @@ def generate_readme():
     pinned = [p for p in posts if "pin" in p["categories"]]
 
     lines = [
-        "# 余烬",
+        "# 知止",
         "",
         "_本分健康，认真努力。做对事情，知错即止。_",
         "",

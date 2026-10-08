@@ -2,7 +2,7 @@
 # 架构：内容源 → 同步脚本 → _posts/ → Jekyll → GitHub Pages
 # 样式：自托管（assets/css/main.scss），参考 willmcgugan.github.io 排版
 
-title: 余烬
+title: 知止
 description: 本分健康，认真努力。做对事情，知错即止。
 url: "https://hong525-gh.github.io"
 baseurl: "/hong525_blog"
@@ -22,4 +22,4 @@ theme_config:
 author:
   name: Hong525
 
-favicon: "logo.jpeg"
+favicon: "donkey_02.jpg"
