@@ -15,6 +15,7 @@ _本分健康，认真努力。做对事情，知错即止。_
 
 ## 最近更新
 
+- [学而](https://hong525-gh.github.io/hong525_blog/2026/10/30/学而.html) -- 2026-10-30
 - [小酒杯饮酒](https://hong525-gh.github.io/hong525_blog/2026/10/19/drinking-from-a-samll-cup.html) -- 2026-10-19
 - [25 岁时没能回答的问题，30 岁有答案了吗？](https://hong525-gh.github.io/hong525_blog/2026/09/29/some-questions.html) -- 2026-09-29
 - [learn Japanes the hard way](https://hong525-gh.github.io/hong525_blog/2026/09/27/learn-japanese-the-hard-way.html) -- 2026-09-27
@@ -24,7 +25,6 @@ _本分健康，认真努力。做对事情，知错即止。_
 - [为什么使用 Anki 来学习日语](https://hong525-gh.github.io/hong525_blog/2026/09/03/why-use-anki-for-learning-japanese.html) -- 2026-09-03
 - [学习一门语言时，为什么要学语法？](https://hong525-gh.github.io/hong525_blog/2026/09/02/why-learn-grammar.html) -- 2026-09-02
 - [学习一门语言时，最容易导致失败的原因是什么](https://hong525-gh.github.io/hong525_blog/2026/08/27/why-i-fail-at-languages-learning.html) -- 2026-08-27
-- [我为什么不再写周报](https://hong525-gh.github.io/hong525_blog/2026/08/13/我为什么不再写周报.html) -- 2026-08-14
 
 ## 链接
 
