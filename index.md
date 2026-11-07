@@ -2,7 +2,7 @@
 layout: home
 ---
 
-_"本分健康，认真努力。对则做对，知错即止。"_
+_"做对的事情，把事情做对；不做错的事情，知错即止。"_
 
 我是 [Hong525](https://github.com/hong525-gh)，Stoic，Running，Reading and Practice。
 
