@@ -15,6 +15,7 @@ _做对的事情，把事情做对；不做错的事情，知错即止。_
 
 ## 最近更新
 
+- [“吃得苦中苦，方为人上人”这句话错在哪里？](https://hong525-gh.github.io/hong525_blog/2026/11/21/“吃得苦中苦，方为人上人”这句话错在哪里？.html) -- 2026-11-21
 - [万物皆可 DIY](https://hong525-gh.github.io/hong525_blog/2026/11/01/万物皆可-DIY.html) -- 2026-11-01
 - [广播-2026-10-30-01](https://hong525-gh.github.io/hong525_blog/2026/10/30/广播-2026-10-30-01.html) -- 2026-10-30
 - [学而](https://hong525-gh.github.io/hong525_blog/2026/10/30/学而.html) -- 2026-10-30
@@ -24,7 +25,6 @@ _做对的事情，把事情做对；不做错的事情，知错即止。_
 - [怎么样改变习惯](https://hong525-gh.github.io/hong525_blog/2026/09/21/about-habit-and-behaviour.html) -- 2026-09-21
 - [推荐一套日语教材：「はじめての日本語能力試験」系列教材](https://hong525-gh.github.io/hong525_blog/2026/09/16/a-recommended-jlpt-textbook-series.html) -- 2026-09-16
 - [我为什么要学习日语](https://hong525-gh.github.io/hong525_blog/2026/09/04/why-i-am-learning-japanese.html) -- 2026-09-04
-- [为什么使用 Anki 来学习日语](https://hong525-gh.github.io/hong525_blog/2026/09/03/why-use-anki-for-learning-japanese.html) -- 2026-09-03
 
 ## 链接
 
