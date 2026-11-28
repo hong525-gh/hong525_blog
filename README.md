@@ -15,6 +15,7 @@ _做对的事情，把事情做对；不做错的事情，知错即止。_
 
 ## 最近更新
 
+- [学习语言和语言考试的关系是什么？](https://hong525-gh.github.io/hong525_blog/2026/11/28/学习语言和语言考试的关系是什么？.html) -- 2026-11-28
 - [“吃得苦中苦，方为人上人”这句话错在哪里？（续）](https://hong525-gh.github.io/hong525_blog/2026/11/22/“吃得苦中苦，方为人上人”这句话错在哪里？（续）.html) -- 2026-11-22
 - [“吃得苦中苦，方为人上人”这句话错在哪里？](https://hong525-gh.github.io/hong525_blog/2026/11/21/“吃得苦中苦，方为人上人”这句话错在哪里？.html) -- 2026-11-21
 - [万物皆可 DIY](https://hong525-gh.github.io/hong525_blog/2026/11/01/万物皆可-DIY.html) -- 2026-11-01
@@ -24,7 +25,6 @@ _做对的事情，把事情做对；不做错的事情，知错即止。_
 - [25 岁时没能回答的问题，30 岁有答案了吗？](https://hong525-gh.github.io/hong525_blog/2026/09/29/some-questions.html) -- 2026-09-29
 - [learn Japanes the hard way](https://hong525-gh.github.io/hong525_blog/2026/09/27/learn-japanese-the-hard-way.html) -- 2026-09-27
 - [怎么样改变习惯](https://hong525-gh.github.io/hong525_blog/2026/09/21/about-habit-and-behaviour.html) -- 2026-09-21
-- [推荐一套日语教材：「はじめての日本語能力試験」系列教材](https://hong525-gh.github.io/hong525_blog/2026/09/16/a-recommended-jlpt-textbook-series.html) -- 2026-09-16
 
 ## 链接
 
